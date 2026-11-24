@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Adit Firmansyah - Mahasiswa Teknologi Informasi, Sopir, Pengirim Rokok, CCTV Technician">
+  <title>Adit Firmansyah | Portofolio</title>
+
+  <!-- Font Poppins dari Google Fonts (butuh internet; kalau offline otomatis pakai font bawaan) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Ikon Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css?v=20261124r">
+</head>
+<body>
+
+  <!-- ANIMASI LOADING -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <p>Memuat portofolio…</p>
+  </div>
+
+  <!-- NAVBAR (menempel di atas) -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#beranda" class="logo">Adit<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="navMenu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#beranda" class="nav-link">Beranda</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang Saya</a></li>
+          <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
+          <li><a href="#portofolio" class="nav-link">Portofolio</a></li>
+          <li><a href="#pendidikan" class="nav-link">Pendidikan</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- A. BERANDA -->
+    <section id="beranda" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-hello">Halo, saya</p>
+          <h1>ADIT FIRMANSYAH</h1>
+          <p class="hero-role">Mahasiswa Teknologi Informasi | Sopir &amp; Pengirim Rokok | CCTV Technician</p>
+          <p class="hero-tagline">"Membangun Masa Depan Melalui Pendidikan, Bisnis, dan Teknologi."</p>
+        </div>
+        <div class="hero-photo">
+          <!-- GANTI FOTO: timpa file assets/images/hero.jpg dengan fotomu -->
+          <img src="assets/images/hero.jpg" alt="Foto profil Adit Firmansyah">
+        </div>
+      </div>
+      <a href="#tentang" class="scroll-hint" aria-label="Gulir ke bawah"><i class="fa-solid fa-chevron-down"></i></a>
+    </section>
+
+    <!-- B. TENTANG SAYA -->
+    <section id="tentang" class="section">
+      <div class="container">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-grid">
+          <div class="about-photo reveal">
+            <img src="assets/images/profil.jpg" alt="Adit Firmansyah saat sedang bekerja">
+          </div>
+          <div class="about-text reveal">
+            <p>Saya Adit Firmansyah, mahasiswa semester 5 Program Studi Teknologi Informasi di Fakultas Teknik dan Transformasi Digital Universitas Annuqayah. Saya tidak hanya fokus pada perkuliahan, tetapi juga ingin terus berkembang lewat pengalaman nyata di luar kelas.</p>
+            <p>Pada pagi hari saya berkuliah di Program Studi Teknologi Informasi dan mengembangkan bisnis pengiriman ayam. Saya aktif sebagai anggota organisasi Sanggar PADI LS yang berdiri sejak tahun 2001. Pada malam hari saya berperan sebagai sopir sekaligus pengirim rokok, bertanggung jawab atas pengiriman serta distribusi pesanan kepada pelanggan. Pada sore hari, saya membuat dan memasang CCTV serta mendokumentasikan kegiatannya melalui TikTok.</p>
+            <p>Saya memiliki jiwa wirausaha, mandiri, disiplin, dan tertarik dengan perkembangan teknologi informasi.</p>
+            <div class="info-cards">
+              <div class="info-card"><i class="fa-solid fa-graduation-cap"></i><h3>Pagi Hari</h3><p>Berkuliah dan mengembangkan bisnis pengiriman ayam</p></div>
+              <div class="info-card"><i class="fa-solid fa-truck-fast"></i><h3>Malam Hari</h3><p>Sopir dan pengirim rokok pada malam hari</p></div>
+              <div class="info-card"><i class="fa-solid fa-video"></i><h3>Sore Hari</h3><p>Pemasangan dan instalasi CCTV</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- C. KEAHLIAN -->
+    <section id="keahlian" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Keahlian</h2>
+        <p class="section-sub">Bar menunjukkan tingkat kemampuan praktik yang saya jalani sehari-hari, bukan sertifikasi.</p>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <i class="fa-solid fa-video"></i>
+            <h3>CCTV Installation</h3>
+            <div class="bar"><span data-level="85"></span></div><small>85%</small>
+          </article>
+          <article class="skill-card reveal">
+            <i class="fa-solid fa-sliders"></i>
+            <h3>CCTV Configuration</h3>
+            <div class="bar"><span data-level="75"></span></div><small>75%</small>
+          </article>
+          <article class="skill-card reveal">
+            <i class="fa-solid fa-network-wired"></i>
+            <h3>Basic Networking</h3>
+            <div class="bar"><span data-level="65"></span></div><small>65%</small>
+          </article>
+          <article class="skill-card reveal">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Business Management</h3>
+            <div class="bar"><span data-level="70"></span></div><small>70%</small>
+          </article>
+          <article class="skill-card reveal">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Distribution &amp; Delivery</h3>
+            <div class="bar"><span data-level="90"></span></div><small>90%</small>
+          </article>
+          <article class="skill-card reveal">
+            <i class="fa-solid fa-clock"></i>
+            <h3>Time Management</h3>
+            <div class="bar"><span data-level="80"></span></div><small>80%</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- D. PORTOFOLIO -->
+    <section id="portofolio" class="section">
+      <div class="container">
+        <h2 class="section-title">Portofolio</h2>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-img"><img src="assets/images/pengiriman.jpg?v=20261124" alt="Adit saat menjalankan kegiatan sebagai sopir pengirim rokok" loading="lazy"></div>
+            <div class="project-body">
+              <h3>Pengiriman Rokok</h3>
+              <p>Kegiatan sebagai sopir sekaligus pengirim rokok kepada pelanggan pada malam hari.</p>
+              <button class="btn-link" data-open="Pengiriman Rokok" data-desc="Pada malam hari, saya berperan sebagai sopir sekaligus pengirim rokok dan bertanggung jawab pada pengiriman serta distribusi pesanan kepada pelanggan." data-img="assets/images/pengiriman.jpg?v=20261124">Lihat detail <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-img"><img src="assets/images/sore-hari.jpg?v=20261124" alt="Adit dalam dokumentasi kegiatan pribadi" loading="lazy"></div>
+            <div class="project-body">
+              <h3>Aktivitas Pribadi</h3>
+              <p>Dokumentasi kegiatan dan momen pribadi Adit.</p>
+              <button class="btn-link" data-open="Aktivitas Pribadi" data-desc="Dokumentasi kegiatan dan momen pribadi sebagai bagian dari keseharian Adit." data-img="assets/images/sore-hari.jpg?v=20261124">Lihat detail <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-img"><img src="assets/images/belajar.jpg?v=20261124" alt="Adit dengan kardus dan aktivitas pengiriman" loading="lazy"></div>
+            <div class="project-body">
+              <h3>Proses Persiapan Barang</h3>
+              <p>Dokumentasi aktivitas persiapan dan pengelolaan barang pengiriman.</p>
+              <button class="btn-link" data-open="Proses Persiapan Barang" data-desc="Dokumentasi kegiatan persiapan dan pengelolaan barang sebelum proses pengiriman." data-img="assets/images/belajar.jpg?v=20261124">Lihat detail <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </article>
+          <article class="project-card project-card-wide reveal">
+            <div class="project-img chicken-gallery">
+              <button type="button" data-open="Pengiriman Ayam" data-desc="Bisnis pengiriman ayam yang sedang dikembangkan untuk mendukung distribusi dan pelayanan kepada pelanggan." data-img="assets/images/pengiriman-ayam-1.jpg" aria-label="Perbesar dokumentasi pengiriman ayam pertama">
+                <img src="assets/images/pengiriman-ayam-1.jpg" alt="Dokumentasi pengiriman ayam pertama" loading="lazy">
+              </button>
+              <button type="button" data-open="Pengiriman Ayam" data-desc="Dokumentasi pengiriman ayam sebagai bagian dari pengembangan usaha dan distribusi." data-img="assets/images/pengiriman-ayam-2.jpg" aria-label="Perbesar dokumentasi pengiriman ayam kedua">
+                <img src="assets/images/pengiriman-ayam-2.jpg" alt="Dokumentasi pengiriman ayam kedua" loading="lazy">
+              </button>
+            </div>
+            <div class="project-body">
+              <h3>Bisnis Pengiriman Ayam</h3>
+              <p>Usaha yang sedang dikembangkan untuk melayani pengiriman dan distribusi ayam.</p>
+              <button class="btn-link" data-open="Bisnis Pengiriman Ayam" data-desc="Pengiriman ayam adalah bisnis yang sedang dikembangkan untuk mendukung distribusi, pengiriman, dan pelayanan kepada pelanggan." data-img="assets/images/pengiriman-ayam-1.jpg">Lihat detail <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </article>
+          <article class="project-card project-card-wide reveal">
+            <div class="project-img cctv-gallery">
+              <button type="button" data-open="Pemasangan CCTV" data-desc="Dokumentasi kegiatan pemasangan dan pengembangan konten CCTV yang dikerjakan pada sore hari." data-img="assets/images/cctv-1.jpg" aria-label="Perbesar dokumentasi pemasangan CCTV pertama">
+                <img src="assets/images/cctv-1.jpg" alt="Dokumentasi perjalanan untuk pemasangan CCTV" loading="lazy">
+              </button>
+              <button type="button" data-open="Pemasangan CCTV" data-desc="Konten proses pemasangan CCTV dipublikasikan melalui akun TikTok @kamera_kaberek_katemor44." data-img="assets/images/cctv-2.jpg" aria-label="Perbesar dokumentasi pemasangan CCTV kedua">
+                <img src="assets/images/cctv-2.jpg" alt="Dokumentasi aktivitas pemasangan CCTV" loading="lazy">
+              </button>
+            </div>
+            <div class="project-body">
+              <h3>Pemasangan &amp; Konten CCTV</h3>
+              <p>Pembuatan dan pemasangan CCTV setiap sore, didokumentasikan melalui TikTok.</p>
+              <a class="btn-link" href="https://www.tiktok.com/@kamera_kaberek_katemor44" target="_blank" rel="noopener">TikTok <i class="fa-brands fa-tiktok"></i></a>
+              <button class="btn-link" data-open="Pemasangan & Konten CCTV" data-desc="Setiap sore saya membuat dan memasang CCTV, kemudian mendokumentasikan serta mengunggah kegiatan tersebut ke TikTok @kamera_kaberek_katemor44." data-img="assets/images/cctv-1.jpg">Lihat detail <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </article>
+          <article class="project-card project-card-wide reveal">
+            <div class="project-img sanggar-gallery">
+              <div class="sanggar-logo-badge" aria-label="Logo Sanggar PADI LS">
+                <img src="assets/images/logo-sanggar-padi-ls.jpg" alt="Logo Sanggar PADI LS">
+              </div>
+              <button type="button" data-open="Kegiatan Sanggar PADI LS" data-desc="Dokumentasi kegiatan organisasi Sanggar PADI LS bersama para anggota." data-img="assets/images/sanggar-padi-ls-kegiatan.jpg" aria-label="Perbesar dokumentasi kegiatan Sanggar PADI LS">
+                <img src="assets/images/sanggar-padi-ls-kegiatan.jpg" alt="Anggota Sanggar PADI LS" loading="lazy">
+              </button>
+            </div>
+            <div class="project-body">
+              <h3>Organisasi Sanggar PADI LS</h3>
+              <p>Aktivitas organisasi dan dokumentasi bersama anggota Sanggar PADI LS.</p>
+              <button class="btn-link" data-open="Sanggar PADI LS" data-desc="Sanggar PADI LS adalah organisasi seni dan budaya yang didirikan pada tahun 2001. Dokumentasi ini menampilkan kegiatan bersama para anggota sanggar." data-img="assets/images/sanggar-padi-ls-kegiatan.jpg">Lihat detail <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- E. PENDIDIKAN -->
+    <section id="pendidikan" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Pendidikan</h2>
+        <div class="edu-card reveal">
+          <i class="fa-solid fa-building-columns"></i>
+          <ul>
+            <li><span>Fakultas</span> Teknik dan Transformasi Digital</li>
+            <li><span>Program Studi</span> Teknologi Informasi</li>
+            <li><span>Semester</span> 5</li>
+            <li><span>Status</span> Mahasiswa aktif</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- F. KONTAK -->
+    <section id="kontak" class="section">
+      <div class="container">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>Punya pertanyaan atau ingin bekerja sama? Kirim pesan lewat form ini, atau hubungi saya langsung.</p>
+            <ul>
+              <li><i class="fa-solid fa-user"></i> Adit Firmansyah</li>
+              <li><i class="fa-brands fa-whatsapp"></i> <a id="waText" href="#" target="_blank" rel="noopener">+62 817-7648-0328</a></li>
+              <li><i class="fa-solid fa-envelope"></i> <a id="mailText" href="#">maditiyafirmansyah657@gmail.com</a></li>
+              <li><i class="fa-brands fa-instagram"></i> <a id="igText" href="#" target="_blank" rel="noopener">@ditts_k1a</a></li>
+              <li><i class="fa-brands fa-tiktok"></i> <a href="https://www.tiktok.com/@kamera_kaberek_katemor44" target="_blank" rel="noopener">@kamera_kaberek_katemor44</a></li>
+            </ul>
+            <a id="waButton" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat via WhatsApp</a>
+          </div>
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <label for="fName">Nama</label>
+            <input type="text" id="fName" required placeholder="Nama kamu">
+            <label for="fMsg">Pesan</label>
+            <textarea id="fMsg" rows="5" required placeholder="Tulis pesanmu di sini"></textarea>
+            <p class="form-error" id="formError" role="alert"></p>
+            <button type="submit" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Kirim lewat WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Copyright &copy; 2026 Adit Firmansyah</p>
+    </div>
+  </footer>
+
+  <!-- Tombol kembali ke atas -->
+  <button class="to-top" id="toTop" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Jendela detail / pembesar foto -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+      <img id="modalImg" src="" alt="">
+      <div class="modal-text">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js?v=20261124"></script>
+</body>
+</html>
